@@ -6,7 +6,7 @@ This project also includes an analysis of weight initialization.
 NOTE: torch_dataset.py is not provided as it was used in a university course.
 
 
-# SGD Implementation
+## SGD Implementation
 I implemented each optimization procedure manually instead of using PyTorch's built-in optimizers.
 
 The algorithm for each batch (sgd function):
@@ -21,7 +21,7 @@ For standard SGD:
 ]
 where (\eta) is the learning rate.
 
-# Momentum
+## Momentum
 Momentum was added by maintaining a velocity term for each parameter:
 [
 v_t = \mu v_{t-1} + \nabla L(\theta_t)
