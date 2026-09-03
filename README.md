@@ -62,6 +62,8 @@ The learning rate was 0.05 for all strategies.
 ## Results
 The learning curves show how mini-batching and momentum affect the convergence of SGD. There are clear differences in the convergence speed between the four optimization methods: full-batch with no momentum, mini-batches with no momentum, full-batch with momentum, and mini-batches with momentum.
 
+![Learning curves comparing SGD optimization strategies](learning_curves.png)
+
 Full-batch without momentum converged the slowest, while adding momentum substantially reduced the number of epochs needed to achieve a low training loss. Mini-batches with momentum converged the fastest, reaching a low loss in approximately 100 epochs.
 
 Overall, the results show that both momentum and mini-batching have a significant effect on the convergence speed of neural network optimization.
