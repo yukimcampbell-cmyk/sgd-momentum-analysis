@@ -3,7 +3,7 @@ This project investigates how different optimization strategies, including mini-
 
 This project also includes an analysis of weight initialization.
 
-NOTE: torch_dataset.py is not provided as it was used in a university course.
+NOTE: torch_dataset.py is not included.
 
 ## Technologies:
 - Python
