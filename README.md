@@ -27,13 +27,8 @@ where (\eta) is the learning rate.
 
 ## Momentum
 Momentum was added by maintaining a velocity term for each parameter:
-$$
-v_t = \mu v_{t-1} + \nabla L(\theta_t)
-$$
-
-$$
-\theta_{t+1} = \theta_t - \eta v_t
-$$
+$ v_t = \mu v_{t-1} + \nabla L(\theta_t) $
+$ \theta_{t+1} = \theta_t - \eta v_t $
 where $\mu$ is the momentum coefficient.
 
 ## Experimental Setup
